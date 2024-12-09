@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloria+Hallelujah&family=Questrial&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Questrial', sans-serif;
+}
+
+
+:root {
+    /* color-scheme: ; */
+    --primary-color: #A47764;
+    --secondary-color: #899F6A;
+    --light-color: #F0E9E0;
+    --accent-color: #D19C97;
+    --text-color: #56453F;
+    --background-color: #EDECF1;
+    --footer-background: rgb(137,159,106,0.8);
+    --footer-text-color: #F0E9E0;
+  
+    /* spacing 1rem=16px
+    --space-gap: 2rem;
+    --space-between-section: 100px; */
+  
+    /* typography */
+    --font-family: "Questrial, Sans-serif";
+    --font-size-h1: 32px;
+    --font-size-h2: 24px;
+    --font-size-h3: 16px;
+    --font-size-nav: 20px;
+    --font-size-menu: 16px;
+    --font-size-p: 14px;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+  
+  }
+
+
+  .productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* 自動排列 */
+    gap: 20px; /* 卡片間距 */
+    padding: 20px; /* 外邊距 */
+    justify-items: center; /* 卡片水平置中 */
+  }
+
+  .productCard {
+    overflow: hidden; /* 防止圖片溢出 */
+    width: 100%; /* 滿足 grid 規則 */ /* 最大寬度 */
+    justify-items: center !important;
+  }
+  
+
+
+  .productImage {
+    width: 100%;
+    height: auto; 
+     /* border-bottom: 1px solid #ddd; 底部分隔線  */
+  }
+
+  .productName {
+    font-size: var(--font-size-h3);
+    color: var(--primary-color);
+    margin: 10px; /* 上下間距 */
+  }
+  
+  .productPrice {
+    font-size: var(--font-size-h3);
+    color: var(--primary-color);
+    margin-bottom: 15px; /* 與底部間距 */
+  }
+
+  button{
+    border: solid;
+    border-color: var(--secondary-color);
+    border-radius: 8px !important;
+    color: var(--secondary-color);
+    width: 250px;
+    background-color: #FFFFFF;
+
+  }
+
+  button:hover {
+    border-radius: 8px !important;
+    color: var(--light-color);
+    width: 250px;
+    background-color: var(--secondary-color);
+  }

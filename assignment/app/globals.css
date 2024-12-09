@@ -100,7 +100,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 10rem;
   background-color: var(--footer-background);
   width: 100vw;
   height: 327px;

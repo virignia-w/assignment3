@@ -10,3 +10,8 @@ Check the layout.tsx be added.
 2. Import Bootstrap at layout.tsx
 3. Create components file and start coding.
 4. import react icon and Google font.
+
+
+
+Challange
+1. Trying to use components to build product but kind of too hrad.

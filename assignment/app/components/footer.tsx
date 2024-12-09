@@ -32,10 +32,7 @@ export default function Footer() {
                         <PiInstagramLogo />
                     </div>
                 </div>
-
-                <div id="CopyRight">
-                    <p>CopyRight@2024</p>
-                </div>
+            
             </div>
 
             <footer className="container-fluid text-center ">

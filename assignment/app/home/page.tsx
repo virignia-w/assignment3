@@ -22,7 +22,7 @@ export default function Home() {
             </div>
             <div className="cardS">
                <img src="image/AngelCard.png" alt="AngelCard" />
-               <div className="cardS-text">AngelCard</div>
+               <div className="cardS-text">Angel Card</div>
             </div>
          </div>
       </div>
@@ -66,9 +66,9 @@ export default function Home() {
 
       </div>
 
-      <div className="crystal-container row">
+      <div className="review-container row">
          <h1>Let Customers Speak for Us</h1>
-         <div className="reviewCard Row">
+         <div className="reviewCard Row">                                     
             <div className="cardR">
                <div><img className="cardRImg" src="image/Mia.png" alt="Mia Clark" /></div>
                <div className="ratingCon">
