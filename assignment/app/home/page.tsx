@@ -9,7 +9,7 @@ import {
    CarouselItem,
    CarouselNext,
    CarouselPrevious,
- } from "@/components/ui/carousel"
+} from "@/components/ui/carousel"
 import { Card, CardContent } from "@/components/ui/card"
 
 export default function Home() {
@@ -37,97 +37,113 @@ export default function Home() {
 
       <div className="flex flex-col w-full justify-center items-center">
          <h1>Popular</h1>
-         <Carousel className="w-full flex justify-center max-w-fit mx-20">
-            <CarouselContent className="-ml-1">
-               <CarouselItem className="pl-1 md:basis-1/6 lg:basis-1/6">
-                  <div className="p-1">
-                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <div>
-                           <img src="image/Himalaya.png" alt="Himalaya Citrine" />
-                           <div className="cardC-text">Himalaya Citrine</div>
+         <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-inner">
+               <div className="carousel-item active">
+                  <div className="col-12 col-md-6 col-lg-4">
+                     <div className="card">
+                        <img src="image/Himalaya.png" className="card-img-top" alt="Himalaya Citrine" />
+                        <div className="card-body text-center">
+                           <div className="card-text">Himalaya Citrine</div>
                         </div>
-                     </CardContent>
+                     </div>
                   </div>
-               </CarouselItem>
-               <CarouselItem className="pl-1 md:basis-1/6 lg:basis-1/6">
-                  <div className="p-1">
-                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <div>
-                           <img src="image/Sphere.png" alt="Purple Mica Sphere" />
-                           <div className="cardC-text">Purple Mica Sphere</div>
+               </div>
+
+               <div className="carousel-item">
+                  <div className="col-12 col-md-6 col-lg-4">
+                     <div className="card">
+                        <img src="image/Sphere.png" className="card-img-top" alt="Purple Mica Sphere" />
+                        <div className="card-body text-center">
+                           <div className="card-text">Purple Mica Sphere</div>
                         </div>
-                     </CardContent>
+                     </div>
                   </div>
-               </CarouselItem>
-               <CarouselItem className="pl-1 md:basis-1/6 lg:basis-1/6">
-                  <div className="p-1">
-                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <div>
-                        <img src="image/RainbowFluorite.png" alt="Rainbow Fluorite" />
-                        <div className="cardC-text">Rainbow Fluorite</div>
+               </div>
+
+               <div className="carousel-item">
+                  <div className="col-12 col-md-6 col-lg-4">
+                     <div className="card">
+                        <img src="image/RainbowFluorite.png" className="card-img-top" alt="Rainbow Fluorite" />
+                        <div className="card-body text-center">
+                           <div className="card-text">Rainbow Fluorite</div>
                         </div>
-                     </CardContent>
+                     </div>
                   </div>
-               </CarouselItem>
-               <CarouselItem className="pl-1 md:basis-1/6 lg:basis-1/6">
-                  <div className="p-1">
-                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <div>
-                        <img src="image/ClearQuartz.png" alt="Clear Quartz" />
-                        <div className="cardC-text">Clear Quartz</div>
+               </div>
+
+               <div className="carousel-item">
+                  <div className="col-12 col-md-6 col-lg-4">
+                     <div className="card">
+                        <img src="image/ClearQuartz.png" className="card-img-top" alt="Clear Quartz" />
+                        <div className="card-body text-center">
+                           <div className="card-text">Clear Quartz</div>
                         </div>
-                     </CardContent>
+                     </div>
                   </div>
-               </CarouselItem>
-               <CarouselItem className="pl-1 md:basis-1/6 lg:basis-1/6">
-                  <div className="p-1">
-                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <div>
-                        <img src="image/Xuebaoding.png" alt="Xuebaoding aquamarine" />
-                        <div className="cardC-text">Xuebaoding aquamarine</div>
+               </div>
+
+               <div className="carousel-item">
+                  <div className="col-12 col-md-6 col-lg-4">
+                     <div className="card">
+                        <img src="image/Xuebaoding.png" className="card-img-top" alt="Xuebaoding Aquamarine" />
+                        <div className="card-body text-center">
+                           <div className="card-text">Xuebaoding Aquamarine</div>
                         </div>
-                     </CardContent>
+                     </div>
                   </div>
-               </CarouselItem>
-               <CarouselItem className="pl-1 md:basis-1/6 lg:basis-1/6">
-                  <div className="p-1">
-                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <div>
-                        <img src="image/BlueFluorite.png" alt="Blue Fluorite" />
-                        <div className="cardC-text">Blue Fluorite</div>
+               </div>
+
+               <div className="carousel-item">
+                  <div className="col-12 col-md-6 col-lg-4">
+                     <div className="card">
+                        <img src="image/BlueFluorite.png" className="card-img-top" alt="Blue Fluorite" />
+                        <div className="card-body text-center">
+                           <div className="card-text">Blue Fluorite</div>
                         </div>
-                     </CardContent>
+                     </div>
                   </div>
-               </CarouselItem>
-               <CarouselItem className="pl-1 md:basis-1/6 lg:basis-1/6">
-                  <div className="p-1">
-                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <div>
-                        <img src="image/Azurite.png" alt="Azurite" />
-                        <div className="cardC-text">Azurite</div>
+               </div>
+
+               <div className="carousel-item">
+                  <div className="col-12 col-md-6 col-lg-4">
+                     <div className="card">
+                        <img src="image/Azurite.png" className="card-img-top" alt="Azurite" />
+                        <div className="card-body text-center">
+                           <div className="card-text">Azurite</div>
                         </div>
-                     </CardContent>
+                     </div>
                   </div>
-               </CarouselItem>
-               <CarouselItem className="pl-1 md:basis-1/6 lg:basis-1/6">
-                  <div className="p-1">
-                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <div>
-                           <img src="image/Indian.png" alt="Indian Epi Stilbite" />
-                           <div className="cardC-text">Indian Epi Stilbite</div>
+               </div>
+
+               <div className="carousel-item">
+                  <div className="col-12 col-md-6 col-lg-4">
+                     <div className="card">
+                        <img src="image/Indian.png" className="card-img-top" alt="Indian Epi Stilbite" />
+                        <div className="card-body text-center">
+                           <div className="card-text">Indian Epi Stilbite</div>
                         </div>
-                     </CardContent>
+                     </div>
                   </div>
-               </CarouselItem>
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
-         </Carousel>
+               </div>
+            </div>
+
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span className="visually-hidden">Previous</span>
+            </button>
+
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+               <span className="carousel-control-next-icon" aria-hidden="true"></span>
+               <span className="visually-hidden">Next</span>
+            </button>
+         </div>
+
       </div>
 
       <div className="review-container row">
          <h1>Let Customers Speak for Us</h1>
-         <div className="reviewCard Row">                                     
+         <div className="reviewCard Row">
             <div className="cardR">
                <div><img className="cardRImg" src="image/Mia.png" alt="Mia Clark" /></div>
                <div className="ratingCon">
