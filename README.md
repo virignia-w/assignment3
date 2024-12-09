@@ -12,10 +12,12 @@ Check the layout.tsx be added.
 ## 4. Import react icon and Google font.
 
 
-# Instraction
-
+# Instructions:
+The landing page is the homepage, which users can access by clicking the logo as well.
+Click on the product page to switch to the crystal page.
 
 
 # My challange
-- Trying to use components to build product but kind of too hrad.
-- Trying to do horizontal scorlling for the popular secion but it is too compiclated.
+-  tried to use components to build the product card, but it was kind of too hard.
+- I attempted to create horizontal scrolling for the popular section, but it was too complicated.
+- I had planned to create a product detail page, but I couldn't manage to find enough time to do so.

@@ -139,7 +139,7 @@ export default function Home() {
                </div>
                <div className="cardR-text">
                   <p>Mia Clark</p>
-                  <p>It’s really beautiful, so peaceful and harmonious. The energy from it made me accidentally shed tears on the MRT.</p>
+                  <p>It's really beautiful, so peaceful and harmonious. The energy from it made me accidentally shed tears on the MRT.</p>
                </div>
             </div>
             <div className="cardR">
@@ -181,7 +181,7 @@ export default function Home() {
                </div>
                <div className="cardR-text">
                   <p>Alex Johnson</p>
-                  <p>I’m so happy that this is my first time buying crystals! Thank you so much to the shop owner! </p>
+                  <p>I'm so happy that this is my first time buying crystals! Thank you so much to the shop owner! </p>
                </div>
             </div>
          </div>
