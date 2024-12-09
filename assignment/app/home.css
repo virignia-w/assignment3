@@ -85,7 +85,7 @@ display: block;
 
   .crystal-container{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: column !important;
     height: 428px;
     /* overflow-x: auto;
     overflow-y: hidden; */
@@ -101,9 +101,7 @@ display: block;
   }
   
   .crystalCard{
-    display: flex;
-    overflow-x: auto;
-  overflow-y: hidden;
+    /* display: flex; */
     justify-content: space-evenly !important;
     margin: 2rem !important;
     gap: 8px;
@@ -114,7 +112,6 @@ display: block;
     width: 220px;
     /* height: 100%; */
     border: 8px;
-    
     transition: transform 0.3s ease-in-out;
     
 }
