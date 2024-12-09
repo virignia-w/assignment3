@@ -87,8 +87,8 @@ display: block;
     display: flex;
     /* flex-wrap: wrap; */
     height: 428px;
-    overflow-x: auto;
-    overflow-y: hidden;
+    /* overflow-x: auto;
+    overflow-y: hidden; */
     margin-top: 10rem !important;
     padding: 0;
     justify-content: center !important;
@@ -128,7 +128,7 @@ display: block;
 }
 
 .cardC-text{
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   right: 0;
   color: var(--primary-color);
