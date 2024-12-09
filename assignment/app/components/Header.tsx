@@ -1,7 +1,19 @@
-// "use client";
+"use client";
+import React, { useEffect } from "react";
+import { usePathname, useRouter } from "next/navigation";
 
 
 export default function Header() {
+    const pathname = usePathname();
+    const router = useRouter();
+
+    useEffect(()=> {
+        // function directToLoginPage() {
+            if (pathname === "/") {
+                router.replace("/home");
+            }
+    }, [pathname]);
+    
     return (
         <>
             <div className="containerallNav">

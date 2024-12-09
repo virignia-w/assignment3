@@ -1,4 +1,6 @@
+"use client";
 import { PiInstagramLogo } from "react-icons/pi";
+
 
 
 export default function Footer() {
