@@ -28,8 +28,6 @@ export default function Crystal() {
                     <p className="productPrice">CAD 32.89</p>
                     <button>Ivite Crystal</button>
                 </div>
-            </div>
-            <div className="productList">
                 <div className="productCard">
                     <img src="image/AzuriteS.png" alt="Azurite" className="productImage" />
                     <h3 className="productName">Azurite</h3>
@@ -48,8 +46,6 @@ export default function Crystal() {
                     <p className="productPrice">CAD 38.64</p>
                     <button>Ivite Crystal</button>
                 </div>
-            </div>
-            <div className="productList">
                 <div className="productCard">
                     <img src="image/Aquamarine.png" alt="Xuebaoding Aquamarine" className="productImage" />
                     <h3 className="productName">Xuebaoding Aquamarine</h3>
@@ -68,8 +64,6 @@ export default function Crystal() {
                     <p className="productPrice">CAD 27.99</p>
                     <button>Ivite Crystal</button>
                 </div>
-            </div>
-            <div className="productList">
                 <div className="productCard">
                     <img src="image/LaceAgate.png" alt="Lace Agate" className="productImage" />
                     <h3 className="productName">Lace Agate</h3>
@@ -88,8 +82,6 @@ export default function Crystal() {
                     <p className="productPrice">CAD 33.00</p>
                     <button>Ivite Crystal</button>
                 </div>
-            </div>
-            <div className="productList">
                 <div className="productCard">
                     <img src="image/YellowQuartz.png" alt="Yellow Rutilated Quartz" className="productImage" />
                     <h3 className="productName">Yellow Rutilated Quartz</h3>

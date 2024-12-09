@@ -136,58 +136,50 @@ export default function Home() {
          <div className="reviewCard Row">
             <div className="cardR">
                <div><img className="cardRImg" src="image/Mia.png" alt="Mia Clark" /></div>
-               <div className="ratingCon">
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-               </div>
-               <div className="cardR-text">
-                  <p>Mia Clark</p>
-                  <p>It's really beautiful, so peaceful and harmonious. The energy from it made me accidentally shed tears on the MRT.</p>
+               <div className="reviewContent">
+                  <div className="ratingCon">
+                     <TiStar />
+                     <TiStar />
+                     <TiStar />
+                     <TiStar />
+                     <TiStar />
+                  </div>
+                  <div className="cardR-text">
+                     <p>Mia Clark</p>
+                     <p>It's really beautiful, so peaceful and harmonious. The energy from it made me accidentally shed tears on the MRT.</p>
+                  </div>
                </div>
             </div>
             <div className="cardR">
                <div><img className="cardRImg" src="image/David.png" alt="David Sanchez" /></div>
-               <div className="ratingCon">
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-               </div>
-               <div className="cardR-text">
-                  <p>David Sanchez</p>
-                  <p>When I opened it and saw them, I truly felt a sense of finally being understood and supported—a kind of emotion that made me want to cry my heart out.♥ Thank you, Universe.</p>
+               <div className="reviewContent">
+                  <div className="ratingCon">
+                     <TiStar />
+                     <TiStar />
+                     <TiStar />
+                     <TiStar />
+                     <TiStar />
+                  </div>
+                  <div className="cardR-text">
+                     <p>David Sanchez</p>
+                     <p>When I opened it and saw them, I truly felt a sense of finally being understood and supported—a kind of emotion that made me want to cry my heart out.♥ Thank you, Universe.</p>
+                  </div>
                </div>
             </div>
             <div className="cardR">
                <div><img className="cardRImg" src="image/Isabella.png" alt="Isabella Smith" /></div>
-               <div className="ratingCon">
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-               </div>
-               <div className="cardR-text">
-                  <p>Isabella Smith</p>
-                  <p>The bracelet has arrived, and  I've been wearing it for a week now. I absolutely love it—thank you so much for giving me so much strength! ❤️❤️❤️</p>
-               </div>
-            </div>
-            <div className="cardR">
-               <div><img className="cardRImg" src="image/Alex.png" alt="Alex Johnson" /></div>
-               <div className="ratingCon">
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-                  <TiStar />
-               </div>
-               <div className="cardR-text">
-                  <p>Alex Johnson</p>
-                  <p>I'm so happy that this is my first time buying crystals! Thank you so much to the shop owner! </p>
+               <div className="reviewContent">
+                  <div className="ratingCon">
+                     <TiStar />
+                     <TiStar />
+                     <TiStar />
+                     <TiStar />
+                     <TiStar />
+                  </div>
+                  <div className="cardR-text">
+                     <p>Isabella Smith</p>
+                     <p>The bracelet has arrived, and  I've been wearing it for a week now. I absolutely love it—thank you so much for giving me so much strength! ❤️❤️❤️</p>
+                  </div>
                </div>
             </div>
          </div>

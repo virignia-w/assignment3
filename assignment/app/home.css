@@ -86,7 +86,7 @@ display: block;
   .crystal-container{
     display: flex;
     flex-direction: column !important;
-    height: 428px;
+    height: auto;
     /* overflow-x: auto;
     overflow-y: hidden; */
     margin-top: 10rem !important;
@@ -119,7 +119,7 @@ display: block;
 
 .cardC > img {
   width: 100%;
-  height: 100%;
+  height: auto;
   bottom: 24px;
   object-fit: cover; /* 保持圖片比例並填充容器 */
 }
@@ -134,10 +134,42 @@ display: block;
   font-size: var(--font-size-h2);
 }    
 
+@media (max-width: 768px) {
+  .crystal-container {
+    margin-top: 5rem !important; /* 減少頂部間距 */
+  }
+
+  .crystalCard {
+    margin: 0.5rem !important; /* 減少外距 */
+    gap: 2px; /* 減少間距 */
+  }
+
+  .cardC {
+    width: 50%; /* 小螢幕時，卡片寬度佔滿容器 */
+  }
+
+  .cardC-text {
+    font-size: var(--font-size-h3); /* 縮小文字大小 */
+  }
+}
+
+@media (max-width: 576px) {
+  .crystalCard {
+    flex-direction: column; /* 小螢幕時改為垂直排列 */
+    align-items: center; /* 居中對齊 */
+  }
+
+  .cardC {
+    width: 30%; /* 卡片寬度稍微縮小 */
+  }
+}
+
+
 .review-container{
   display: flex;
-  height: 328px;
-  margin: 10rem !important;
+  height: auto;
+  /* width: 100vw; */
+  margin: 3rem !important;
   padding: 0;
   justify-content: center !important;
 }
@@ -154,19 +186,17 @@ display: block;
   justify-content: space-around !important;
   gap: 10px;
   height: auto;
-  margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
-  overflow-x: auto;
-  overflow-y: hidden;
+  margin: 3rem;
 }
 
 .cardR{
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-items: center;
   width: 320px;
-  height: 420px;
+  height: auto;
   /* overflow: hidden; */
   border: 1px;
   border-color: var(--primary-color);
@@ -181,7 +211,7 @@ display: block;
 }
 
 .cardR-text{
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: column;
   left: 0;
@@ -189,14 +219,17 @@ display: block;
   bottom: 10px;
   color: var(--primary-color);
   text-align: center;
-  padding: 10px;
+  padding: 12px;
+  margin: 12px !important;
   font-size: var(--font-size-p);
 }    
 
 .ratingCon{
   color: var(--secondary-color);
-  margin-top: 12px;
+  margin: 12px;
   size: 12px;
+  display: flex !important;
+  justify-content: center !important;
   
 }
 

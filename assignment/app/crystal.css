@@ -37,7 +37,9 @@
     --font-weight-bold: 700;
   
   }
-
+.containerCry{
+  justify-items: center;
+}
 
   .productList {
     display: grid;
@@ -89,3 +91,4 @@
     width: 250px;
     background-color: var(--secondary-color);
   }
+

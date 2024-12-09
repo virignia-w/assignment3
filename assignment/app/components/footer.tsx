@@ -28,8 +28,8 @@ export default function Footer() {
                     </div>
                     <div className="follow">
                         <h2>Follow Us</h2>
-                        <PiInstagramLogo />
-                        <PiInstagramLogo />
+                        <PiInstagramLogo size={32}/>
+                        <PiInstagramLogo size={32}/>
                     </div>
                 </div>
             

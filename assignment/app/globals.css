@@ -117,3 +117,20 @@ h2{
   margin-bottom: 2rem !important;
   font-size: var(--font-size-h2);
 }
+
+.reviewContent{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+}
+
+.follow > svg{
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.text-center{
+  background-color: var(--footer-background);
+  color: var(--footer-text-color);
+}
