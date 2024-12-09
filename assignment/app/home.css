@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloria+Hallelujah&family=Questrial&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Questrial', sans-serif;
+}
+
+
+:root {
+    /* color-scheme: ; */
+    --primary-color: #A47764;
+    --secondary-color: #899F6A;
+    --light-color: #F0E9E0;
+    --accent-color: #D19C97;
+    --text-color: #56453F;
+    --background-color: #EDECF1;
+    --footer-background: rgb(137,159,106,0.8);
+    --footer-text-color: #F0E9E0;
+  
+    /* spacing 1rem=16px
+    --space-gap: 2rem;
+    --space-between-section: 100px; */
+  
+    /* typography */
+    --font-family: "Questrial, Sans-serif";
+    --font-size-h1: 32px;
+    --font-size-h2: 24px;
+    --font-size-nav: 20px;
+    --font-size-menu: 16px;
+    --font-size-p: 14px;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+  
+  }
+.hpPic{
+height: 460px;
+width: auto;
+margin: auto;
+display: block;
+}
+
+.serviceCard{
+    display: flex;
+    justify-content: space-around !important;
+    gap: 10px; /* 控制卡片之間的間距 */
+    flex-wrap: wrap; /* 使卡片在小螢幕上換行 */
+    margin-top: 3rem;
+}
+
+.cardS{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+    border: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cardS:hover {
+    transform: scale(1.05); /* 當滑鼠懸停時放大卡片 */
+  }
+
+  .cardS > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保持圖片比例並填充容器 */
+  }
+
+  .cardS-text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: var(--footer-background);
+    color: var(--light-color);
+    text-align: center;
+    padding: 10px;
+    font-size: var(--font-size-h1);
+  }    
+
+  .crystal-container{
+    display: flex;
+    margin-top: 3rem !important;
+    justify-content: center !important;
+  }
+
+  .crystal-container > h1{
+    color: var(--primary-color);
+    font-size: var(--font-size-h1);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .crystalCard{
+    display: flex;
+    justify-content: space-around !important;
+    gap: 10px; /* 控制卡片之間的間距 */
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 3rem;
+  }
+
+  .cardC{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border: 8px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.cardC:hover {
+  transform: scale(1.05); /* 當滑鼠懸停時放大卡片 */
+}
+
+.cardC > img {
+  width: 80%;
+  height: 80%;
+  bottom: 24px;
+  object-fit: cover; /* 保持圖片比例並填充容器 */
+}
+
+.cardC-text{
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: var(--primary-color);
+  text-align: center;
+  padding: 10px;
+  font-size: var(--font-size-h2);
+}    
+
+.reviewCard{
+  display: flex;
+  justify-content: space-around !important;
+  gap: 10px;
+  margin-top: 3rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.cardR{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 420px;
+  /* overflow: hidden; */
+  border: 1px;
+  border-color: var(--primary-color);
+}
+
+
+
+.cardRImg{
+  width: 240px;
+  height: 240px;
+  object-fit: cover; /* 保持圖片比例並填充容器 */
+}
+
+.cardR-text{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  color: var(--primary-color);
+  text-align: center;
+  padding: 10px;
+  font-size: var(--font-size-p);
+}    
+
+.ratingCon{
+  color: var(--secondary-color);
+  margin-top: 12px;
+  size: 12px;
+  
+}
+
+.crystal-container > h1{
+  color: var(--primary-color);
+  font-size: var(--font-size-h1);
+  text-align: center;
+  margin-bottom: 40px;
+}
