@@ -20,7 +20,7 @@ export default function Header() {
     return (
         <>
             <div className="containerallNav">
-                <nav className="navbar navbar-expand-md mb-0">
+                <nav className="navbar navbar-expand-lg bg-light mb-0">
                     <div>
                         <a className="navbar-brand" href="/home"> <Image src={Logo} alt="logo" width={500} height={80}/> </a>
                     </div>
@@ -31,11 +31,11 @@ export default function Header() {
                     <div className="navRow">
                         <hr className="custom-hr"/>
 
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="collapse navbar-collapse" id="linkbar">
-                            <ul className="nav" >
+                        <div className="collapse navbar-collapse bar" id="navbarSupportedContent">
+                            <ul className="navbar-nav" >
                                 <li className="nav-item">
                                     <a className="nav-link" href="/crystal">Product</a>
                                 </li>

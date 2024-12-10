@@ -70,8 +70,7 @@ body {
   height: 38px;
 }
 
-
-.navbar-collapse {
+.bar{
   width: 100%;
   /* 自動調整寬度 */
   display: flex;
@@ -81,8 +80,20 @@ body {
   /* 更符合標準的分佈 */
   align-items: center;
 }
+.collapse {
+  display: none;
+  /* Bootstrap 預設 */
+}
 
+.collapse.show {
+  display: block !important;
+  /* 確保展開後顯示 */
+}
 
+.navbar-collapse {
+  z-index: 1050;
+  /* Bootstrap 預設層級 */
+}
 
 .nav-link {
   text-decoration: none !important;
@@ -113,7 +124,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .navbar-collapse {
+  .bar {
     background-color: #FFFFFF;
     border: solid;
     border-color: var(--secondary-color);
@@ -150,7 +161,7 @@ body {
   
     .nav-link {
       text-decoration: none !important;
-      color: var(--primary-colorr) !important;
+      color: var(--primary-color) !important;
       font-size: var(--font-size-p) !important;
       padding: 8px !important;
     }
@@ -160,7 +171,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
   background-color: var(--footer-background);
   width: 100vw;
   height: 327px;

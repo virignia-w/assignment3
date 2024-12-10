@@ -37,17 +37,21 @@
 
 }
 
+
+.containerHom {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0 1rem;
+  /* 增加左右內距 */
+  overflow: hidden;
+}
+
 .hpPic {
-  height: 460px;
-  width: auto;
-  margin: auto;
+  height: auto;
+  width: 100vw !important;
+  margin: 0;
   display: block;
 }
-
-@media (max-width: 768px) {
-  
-}
-
 
 .serviceCard {
   display: flex;
@@ -56,13 +60,14 @@
   /* 控制卡片之間的間距 */
   flex-wrap: wrap;
   /* 使卡片在小螢幕上換行 */
-  margin: 3rem;
+  margin: 4rem;
 }
 
 .cardS {
   position: relative;
-  width: 320px;
-  height: 320px;
+  max-width: 320px;
+  width: 30%;
+  height: auto;
   flex-wrap: wrap;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
@@ -98,7 +103,7 @@
   height: auto;
   /* overflow-x: auto;
     overflow-y: hidden; */
-  margin-top: 10rem !important;
+  margin-top: 4rem !important;
   padding: 0;
   justify-content: center !important;
 }
@@ -110,10 +115,43 @@
 }
 
 .crystalCard {
-  /* display: flex; */
-  justify-content: space-evenly !important;
-  margin: 2rem !important;
-  gap: 8px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.crystalCard img {
+  width: 100%;
+  /* 圖片寬度填滿容器 */
+  aspect-ratio: 1 / 1;
+  /* 維持正方形比例 */
+  object-fit: cover;
+  /* 裁剪以填滿容器，並保持內容不失真 */
+}
+
+/* 行內調整：小螢幕顯示兩個，中螢幕三個，大螢幕四個 */
+.carousel-inner .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carousel-inner .col-12 {
+  flex: 0 0 100%;
+  /* 小螢幕一列顯示一個卡片 */
+}
+
+.carousel-inner .col-md-6 {
+  flex: 0 0 50%;
+  /* 中螢幕一列顯示兩個卡片 */
+}
+
+.carousel-inner .col-lg-3 {
+  flex: 0 0 25%;
+  /* 大螢幕一列顯示四個卡片 */
 }
 
 .cardC {
@@ -149,6 +187,23 @@
 }
 
 @media (max-width: 768px) {
+
+  .hpPic {
+    height: 50vh;
+    /* 高度設置為螢幕高度的 50% */
+    object-fit: cover;
+    /* 確保圖片不會失真 */
+  }
+
+  .serviceCard {
+    margin-top: 3rem !important;
+    gap: 8px;
+  }
+
+  .cardS {
+    width: 45%;
+  }
+
   .crystal-container {
     margin-top: 5rem !important;
     /* 減少頂部間距 */
@@ -171,7 +226,16 @@
   }
 }
 
+
 @media (max-width: 576px) {
+
+  .hpPic {
+    height: 50vh;
+    /* 高度設置為螢幕高度的 50% */
+    object-fit: cover;
+    /* 確保圖片不會失真 */
+  }
+
   .crystalCard {
     flex-direction: column;
     /* 小螢幕時改為垂直排列 */
@@ -180,7 +244,7 @@
   }
 
   .cardC {
-    width: 30%;
+    width: 90%;
     /* 卡片寬度稍微縮小 */
   }
 }
@@ -192,6 +256,8 @@
 
 .review-container {
   display: flex;
+  flex-wrap: wrap;
+  /* 小螢幕時卡片自動換行 */
   height: auto;
   /* width: 100vw; */
   margin: 3rem !important;
@@ -215,12 +281,17 @@
 }
 
 .cardR {
+  flex: 1 1 calc(33.33% - 2rem);
+  /* 卡片寬度：大螢幕三個並排，含間距 */
+  margin: 1rem;
+  max-width: 420px;
+  /* 限制卡片最大寬度 */
+  text-align: center;
   /* position: relative; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  width: 320px;
   height: auto;
   /* overflow: hidden; */
   border: 1px;
@@ -235,6 +306,8 @@
 .cardRImg {
   width: 240px;
   height: 240px;
+  aspect-ratio: 1 / 1;
+    /* 維持正方形比例 */
   object-fit: cover;
   /* 保持圖片比例並填充容器 */
 }
@@ -267,4 +340,30 @@
   font-size: var(--font-size-h1);
   text-align: center;
   margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  /* Carousel 小螢幕時卡片佔滿一整列 */
+  .carousel-inner .col-md-6 {
+    flex: 0 0 100%; /* 一列顯示一個 */
+  }
+.reviews {
+  flex-direction: column !important;
+  align-items: center;
+}
+  /* Review 小螢幕時垂直堆疊 */
+  .cardR {
+    flex: 1 1 100%; /* 寬度佔滿容器 */
+    max-width: none;
+  }
+
+     .review-card {
+       max-width: 100%;
+     }
+
+  /* Review 卡片圖片縮小 */
+  .cardRImg {
+    width: 80%; /* 縮小圖片寬度 */
+    margin: 0 auto; /* 圖片置中 */
+  }
 }
