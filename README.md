@@ -1,23 +1,41 @@
-# Start a new project
+# Hi Welcome to my crystal shop
 
-## 1. Create react and next.js
- ```$ npm create vite@latest```
- ```$ npx create-react-app react-star-rating```
+## 1.Overview
+![SHOP WEBSITE](./public/image/shop.png)
 
-Open http://localhost:3000 with your browser to see the result.
-Check the layout.tsx be added.
+## 2. Installation
 
-## 2. Import Bootstrap at layout.tsx
-## 3. Create components file and start coding.
-## 4. Import react icon and Google font.
+install npm
+ ```npm install```
 
+ and then run npm run dev
+ ```npm run dev```
+
+## 3.dependencies
+This project depends on the following libraries and tools:
+- React: A JavaScript library for building user interfaces.
+### How to Install
+Run the following command to install all dependencies:
+```npm install```
+### Installing Bootstrap
+To include Bootstrap in your project, run the following command:
+```npm install bootstrap ```
+### Importing Bootstrap CSS
+```import 'bootstrap/dist/css/bootstrap.min.css';```
+```import 'bootstrap/dist/js/bootstrap.bundle.min.js';```
+
+Before the closing <body> tag (JavaScript):
+
+```<script src="path/to/bootstrap.bundle.min.js"></script>```
+
+Then, import Bootstrap into your project:
+
+```import 'bootstrap/dist/css/bootstrap.min.css';```
+```import 'bootstrap/dist/js/bootstrap.bundle.min.js';```
+
+ Create components file and start coding.
 
 # Instructions:
 The landing page is the homepage, which users can access by clicking the logo as well.
 Click on the product page to switch to the crystal page.
 
-
-# My challange
--  tried to use components to build the product card, but it was kind of too hard.
-- I attempted to create horizontal scrolling for the popular section, but it was too complicated.
-- I had planned to create a product detail page, but I couldn't manage to find enough time to do so.
