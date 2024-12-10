@@ -6,7 +6,7 @@ import { PiInstagramLogo } from "react-icons/pi";
 export default function Footer() {
     return (
         <>
-            <div className="footer-container">
+            <div className="footer-container container-fluid">
                 <div className="footer">
 
                     <div className="explore">

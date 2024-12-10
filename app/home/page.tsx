@@ -133,8 +133,8 @@ export default function Home() {
             </div>
 
             {/* 控制按鈕 */}
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button className="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+               <span className="carousel-control-prev-icon car-button" aria-hidden="true"></span>
                <span className="visually-hidden">Previous</span>
             </button>
 

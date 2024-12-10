@@ -119,11 +119,14 @@ display: block;
 
 .cardC > img {
   width: 100%;
-  height: auto;
-  bottom: 24px;
-  object-fit: cover; /* 保持圖片比例並填充容器 */
+  height: 100%;
+  /* bottom: 24px; */
+  object-fit: fill; /* 保持圖片比例並填充容器 */
 }
 
+.text-center{
+  background-color: transparent;
+}
 .cardC-text{
   /* position: absolute; */
   left: 0;
@@ -131,7 +134,7 @@ display: block;
   color: var(--primary-color);
   text-align: center;
   padding: 10px;
-  font-size: var(--font-size-h2);
+  font-size: var(--font-size-h3);
 }    
 
 @media (max-width: 768px) {
@@ -149,7 +152,7 @@ display: block;
   }
 
   .cardC-text {
-    font-size: var(--font-size-h3); /* 縮小文字大小 */
+    font-size: var(--font-size-h2); 
   }
 }
 
@@ -164,6 +167,10 @@ display: block;
   }
 }
 
+.car-button{
+  color: var(--primary-color) !important;
+  height: 24px !important;
+}
 
 .review-container{
   display: flex;
@@ -199,7 +206,10 @@ display: block;
   height: auto;
   /* overflow: hidden; */
   border: 1px;
+  border: solid;
+  border-radius: 12px;
   border-color: var(--primary-color);
+  padding-top: 2rem;
 }
 
 

@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloria+Hallelujah&family=Questrial&display=swap');
 
 
@@ -19,7 +18,7 @@ body {
   --accent-color: #D19C97;
   --text-color: #56453F;
   --background-color: #EDECF1;
-  --footer-background: rgb(137,159,106,0.8);
+  --footer-background: rgb(137, 159, 106, 0.8);
   --footer-text-color: #F0E9E0;
 
   /* spacing 1rem=16px
@@ -39,50 +38,57 @@ body {
   --font-weight-bold: 700;
 
 }
+
 .containerallNav {
-  width: 100%; /* 外層容器全屏寬度 */
-  margin: 0 auto; /* 中心對齊 */
+  width: 100%;
+  /* 外層容器全屏寬度 */
+  margin: 0 auto;
+  /* 中心對齊 */
 }
 
-.navbar{
+.navbar {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.navbar-brand > img{
+.navbar-brand>img {
   width: 80px;
 }
 
-.navbar-brand{
-  margin: 0 auto; /* 中心對齊 */
-  display: flex; /* 讓內容水平排列 */
+.navbar-brand {
+  margin: 0 auto;
+  /* 中心對齊 */
+  display: flex;
+  /* 讓內容水平排列 */
   justify-content: center;
   align-items: center;
 }
 
-.brandName > img {
+.brandName>img {
   height: 38px;
 }
 
 
 .navbar-collapse {
-  width: 100%; /* 自動調整寬度 */
+  width: 100%;
+  /* 自動調整寬度 */
   display: flex;
   padding-left: 2rem;
   padding-right: 2rem;
-  justify-content: center; /* 更符合標準的分佈 */
+  justify-content: center;
+  /* 更符合標準的分佈 */
   align-items: center;
 }
 
-.nav-link{
+.nav-link {
   text-decoration: none !important;
   color: var(--primary-color) !important;
   font-size: var(--font-size-menu) !important;
 }
 
-.custom-hr{
+.custom-hr {
   background-color: var(--secondary-color) !important;
   height: 1px !important;
   width: 90% !important;
@@ -91,13 +97,13 @@ body {
   margin: auto;
 }
 
-.navRow{
+.navRow {
   height: 60px;
   width: 100vw;
   margin-top: 10px;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -108,30 +114,49 @@ body {
   padding: 2rem;
 }
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-around;
   color: var(--footer-text-color);
 }
 
-h2{
+h2 {
   margin-bottom: 2rem !important;
   font-size: var(--font-size-h2);
 }
 
-.reviewContent{
+.reviewContent {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  
+
 }
 
-.follow > svg{
+.follow>svg {
   margin: 1rem;
   margin-top: 0;
 }
 
-.text-center{
+.text-center {
   background-color: var(--footer-background);
   color: var(--footer-text-color);
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    height: 100%;
+    justify-content: center;
+  }
+
+  .footer {
+    display: block;
+    height: 100%;
+    text-align: center;
+  }
+
+  .explore, .email, .touch, .follow{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
 }
