@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
+import Image from "next/image";
 
 
 export default function Header() {
@@ -19,10 +20,10 @@ export default function Header() {
             <div className="containerallNav">
                 <nav className="navbar navbar-expand-lg mb-0">
                     <div>
-                        <a className="navbar-brand" href="/home"> <img src="image/Logo.png" /> </a>
+                        <a className="navbar-brand" href="/home"> <Image src="/image/Logo.png" alt="logo" width={500} height={500}/> </a>
                     </div>
                     <div>
-                        <a className="brandName" href="/home"> <img src="image/CrystalSoul.png" /> </a>
+                        <a className="brandName" href="/home"> <Image src="image/CrystalSoul.png" alt="brand" width={500} height={500}/> </a>
                     </div>
 
                     <div className="navRow">
