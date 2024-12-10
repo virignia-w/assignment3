@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import "../home.css";
 import { TiStar } from "react-icons/ti";
 import Footer from "../components/footer";
+import Image from "next/image";
 
 
 
@@ -12,19 +13,19 @@ export default function Home() {
       <Header />
 
       <div className="containerHom">
-         <img className="hpPic" src="image/homepage.png" alt="crystal" />
+         <Image className="hpPic" src="/image/homepage.png" alt="crystal" width={500} height={500}/>
 
          <div className="serviceCard Row">
             <div className="cardS">
-               <img src="image/Invite.png" alt="Invite Crystal" />
+               <Image src="/image/Invite.png" alt="Invite Crystal" width={500} height={500} />
                <div className="cardS-text">Invite Crystal</div>
             </div>
             <div className="cardS">
-               <img src="image/Candle.png" alt="Candle" />
+               <Image src="/image/Candle.png" alt="Candle" width={500} height={500} />
                <div className="cardS-text">Candle</div>
             </div>
             <div className="cardS">
-               <img src="image/AngelCard.png" alt="AngelCard" />
+               <Image src="/image/AngelCard.png" alt="AngelCard" width={500} height={500} />
                <div className="cardS-text">Angel Card</div>
             </div>
          </div>
@@ -39,7 +40,7 @@ export default function Home() {
                      {/* 每一行顯示四個項目 */}
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <img src="image/Himalaya.png" className="card-img-top" alt="Himalaya Citrine" />
+                           <Image src="/image/Himalaya.png" className="card-img-top" alt="Himalaya Citrine" width={500} height={500}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Himalaya Citrine</div>
                            </div>
@@ -48,7 +49,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <img src="image/Sphere.png" className="card-img-top" alt="Purple Mica Sphere" />
+                           <Image src="/image/Sphere.png" className="card-img-top" alt="Purple Mica Sphere" width={500} height={500}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Purple Mica Sphere</div>
                            </div>
@@ -57,7 +58,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <img src="image/RainbowFluorite.png" className="card-img-top" alt="Rainbow Fluorite" />
+                           <Image src="/image/RainbowFluorite.png" className="card-Image-top" alt="Rainbow Fluorite" width={500} height={500}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Rainbow Fluorite</div>
                            </div>
@@ -66,7 +67,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <img src="image/ClearQuartz.png" className="card-img-top" alt="Clear Quartz" />
+                           <Image src="/image/ClearQuartz.png" className="card-img-top" alt="Clear Quartz" width={500} height={500}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Clear Quartz</div>
                            </div>
@@ -80,7 +81,7 @@ export default function Home() {
                   <div className="row">
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <img src="image/Xuebaoding.png" className="card-img-top" alt="Xuebaoding Aquamarine" />
+                           <Image src="/image/Xuebaoding.png" className="card-img-top" alt="Xuebaoding Aquamarine" width={500} height={500}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Xuebaoding Aquamarine</div>
                            </div>
@@ -89,7 +90,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <img src="image/BlueFluorite.png" className="card-img-top" alt="Blue Fluorite" />
+                           <Image src="/image/BlueFluorite.png" className="card-img-top" alt="Blue Fluorite" width={500} height={500}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Blue Fluorite</div>
                            </div>
@@ -98,7 +99,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <img src="image/Azurite.png" className="card-img-top" alt="Azurite" />
+                           <Image src="/image/Azurite.png" className="card-img-top" alt="Azurite" width={500} height={500} />
                            <div className="card-body text-center">
                               <div className="cardC-text">Azurite</div>
                            </div>
@@ -107,7 +108,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <img src="image/Indian.png" className="card-img-top" alt="Indian Epi Stilbite" />
+                           <Image src="/image/Indian.png" className="card-img-top" alt="Indian Epi Stilbite" width={500} height={500}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Indian Epi Stilbite</div>
                            </div>
@@ -135,7 +136,7 @@ export default function Home() {
          <h1>Let Customers Speak for Us</h1>
          <div className="reviewCard Row">
             <div className="cardR">
-               <div><img className="cardRImg" src="image/Mia.png" alt="Mia Clark" /></div>
+               <div><Image className="cardRImg" src="/image/Mia.png" alt="Mia Clark" width={500} height={500}/></div>
                <div className="reviewContent">
                   <div className="ratingCon">
                      <TiStar />
@@ -151,7 +152,7 @@ export default function Home() {
                </div>
             </div>
             <div className="cardR">
-               <div><img className="cardRImg" src="image/David.png" alt="David Sanchez" /></div>
+               <div><Image className="cardRImg" src="/image/David.png" alt="David Sanchez" width={500} height={500} /></div>
                <div className="reviewContent">
                   <div className="ratingCon">
                      <TiStar />
@@ -167,7 +168,7 @@ export default function Home() {
                </div>
             </div>
             <div className="cardR">
-               <div><img className="cardRImg" src="image/Isabella.png" alt="Isabella Smith" /></div>
+               <div><Image className="cardRImg" src="/image/Isabella.png" alt="Isabella Smith" width={500} height={500}/></div>
                <div className="reviewContent">
                   <div className="ratingCon">
                      <TiStar />
