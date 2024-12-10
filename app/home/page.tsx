@@ -40,7 +40,7 @@ export default function Home() {
                      {/* 每一行顯示四個項目 */}
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <Image src="/image/Himalaya.png" className="card-img-top" alt="Himalaya Citrine" width={500} height={500}/>
+                           <Image src="/image/Himalaya.png" className="card-img-top" alt="Himalaya Citrine" width={350} height={350}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Himalaya Citrine</div>
                            </div>
@@ -49,7 +49,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <Image src="/image/Sphere.png" className="card-img-top" alt="Purple Mica Sphere" width={500} height={500}/>
+                           <Image src="/image/Sphere.png" className="card-img-top" alt="Purple Mica Sphere" width={350} height={350}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Purple Mica Sphere</div>
                            </div>
@@ -58,7 +58,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <Image src="/image/RainbowFluorite.png" className="card-Image-top" alt="Rainbow Fluorite" width={500} height={500}/>
+                           <Image src="/image/RainbowFluorite.png" className="card-img-top" alt="Rainbow Fluorite" width={350} height={350}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Rainbow Fluorite</div>
                            </div>
@@ -67,7 +67,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <Image src="/image/ClearQuartz.png" className="card-img-top" alt="Clear Quartz" width={500} height={500}/>
+                           <Image src="/image/ClearQuartz.png" className="card-img-top" alt="Clear Quartz" width={350} height={350}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Clear Quartz</div>
                            </div>
@@ -81,7 +81,7 @@ export default function Home() {
                   <div className="row">
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <Image src="/image/Xuebaoding.png" className="card-img-top" alt="Xuebaoding Aquamarine" width={500} height={500}/>
+                           <Image src="/image/Xuebaoding.png" className="card-img-top" alt="Xuebaoding Aquamarine" width={350} height={350}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Xuebaoding Aquamarine</div>
                            </div>
@@ -90,7 +90,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <Image src="/image/BlueFluorite.png" className="card-img-top" alt="Blue Fluorite" width={500} height={500}/>
+                           <Image src="/image/BlueFluorite.png" className="card-img-top" alt="Blue Fluorite" width={350} height={350}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Blue Fluorite</div>
                            </div>
@@ -99,7 +99,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <Image src="/image/Azurite.png" className="card-img-top" alt="Azurite" width={500} height={500} />
+                           <Image src="/image/Azurite.png" className="card-img-top" alt="Azurite" width={350} height={350} />
                            <div className="card-body text-center">
                               <div className="cardC-text">Azurite</div>
                            </div>
@@ -108,7 +108,7 @@ export default function Home() {
 
                      <div className="col-12 col-md-6 col-lg-3">
                         <div className="crystalCard">
-                           <Image src="/image/Indian.png" className="card-img-top" alt="Indian Epi Stilbite" width={500} height={500}/>
+                           <Image src="/image/Indian.png" className="card-img-top" alt="Indian Epi Stilbite" width={350} height={350}/>
                            <div className="card-body text-center">
                               <div className="cardC-text">Indian Epi Stilbite</div>
                            </div>
@@ -147,7 +147,7 @@ export default function Home() {
                   </div>
                   <div className="cardR-text">
                      <p>Mia Clark</p>
-                     <p>It's really beautiful, so peaceful and harmonious. The energy from it made me accidentally shed tears on the MRT.</p>
+                     <p>{"It's really beautiful, so peaceful and harmonious. The energy from it made me accidentally shed tears on the MRT."}</p>
                   </div>
                </div>
             </div>

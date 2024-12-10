@@ -94,6 +94,7 @@ body {
 .navRow{
   height: 60px;
   width: 100vw;
+  margin-top: 10px;
 }
 
 .footer-container{
