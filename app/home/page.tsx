@@ -179,7 +179,7 @@ export default function Home() {
                   </div>
                   <div className="cardR-text">
                      <p>Isabella Smith</p>
-                     <p>The bracelet has arrived, and  I've been wearing it for a week now. I absolutely love it—thank you so much for giving me so much strength! ❤️❤️❤️</p>
+                     <p>{"The bracelet has arrived, and  I've been wearing it for a week now. I absolutely love it—thank you so much for giving me so much strength! ❤️❤️❤️"}</p>
                   </div>
                </div>
             </div>
