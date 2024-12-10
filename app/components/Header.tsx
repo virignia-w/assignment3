@@ -22,10 +22,10 @@ export default function Header() {
             <div className="containerallNav">
                 <nav className="navbar navbar-expand-lg mb-0">
                     <div>
-                        <a className="navbar-brand" href="/home"> <Image src={Logo} alt="logo" width={500} height={80}/> </a>
+                        <a className="navbar-brand" href="/assignment3/home"> <Image src={Logo} alt="logo" width={500} height={80}/> </a>
                     </div>
                     <div>
-                        <a className="brandName" href="/home"> <Image src={CrystalSoul} alt="brand" width={150} height={30}/> </a>
+                        <a className="brandName" href="/assignment3/home"> <Image src={CrystalSoul} alt="brand" width={150} height={30}/> </a>
                     </div>
 
                     <div className="navRow">
