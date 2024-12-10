@@ -18,6 +18,7 @@ import Indian from "@/public/image/Indian.png";
 import Mia from "@/public/image/Mia.png";
 import David from "@/public/image/David.png";
 import Isabella from "@/public/image/Isabella.png";
+import Homepage from "@/public/image/homepage.png";
 
 
 
@@ -26,7 +27,7 @@ export default function Home() {
       <Header />
 
       <div className="containerHom">
-         <Image className="hpPic" src="/image/homepage.png" alt="crystal" width={500} height={500}/>
+         <Image className="hpPic" src={Homepage} alt="crystal" width={500} height={500}/>
 
          <div className="serviceCard Row">
             <div className="cardS">
